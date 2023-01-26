@@ -28,7 +28,7 @@ public class JwtService {
         return claimsResolver.apply(CLAIMS);
     }
 
-    public String generatetoken(UserDetails userDetails) {
+    public String generateToken(UserDetails userDetails) {
         return generatetoken(new HashMap<>(), userDetails);
     }
 

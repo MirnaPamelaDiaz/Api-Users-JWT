@@ -1,4 +1,4 @@
-package com.op.userjwt.security.Jwt;
+package com.op.userjwt.config;
 
 import com.op.userjwt.repository.UserAppRepository;
 import lombok.RequiredArgsConstructor;

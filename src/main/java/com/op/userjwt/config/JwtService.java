@@ -1,4 +1,4 @@
-package com.op.userjwt.security.Jwt;
+package com.op.userjwt.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

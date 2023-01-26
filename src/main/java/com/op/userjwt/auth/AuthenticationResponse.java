@@ -1,4 +1,4 @@
-package com.op.userjwt.controller;
+package com.op.userjwt.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

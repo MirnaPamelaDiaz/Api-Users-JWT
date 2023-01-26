@@ -1,13 +1,12 @@
-package com.op.userjwt.controller;
+package com.op.userjwt.auth;
 
 import com.op.userjwt.entity.Role;
 import com.op.userjwt.entity.UserApp;
 import com.op.userjwt.repository.UserAppRepository;
-import com.op.userjwt.security.Jwt.JwtService;
+import com.op.userjwt.config.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
